@@ -1,0 +1,35 @@
+/* DAY 3 */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{ 
+    width: 1170px;
+    height: auto;
+    margin: 0 auto;
+}
+.topheader{
+    width: 100%;
+    height: 200px;
+    background-color: #ff0000;
+}
+/* .navbar{} 
+.navbar ul{
+    list-style-type: none;
+}
+.navbar ul li{}
+.navbar ul li a{
+    text-decoration: none;
+    float: left;
+    background-color: red;
+    padding: 10px 20px 10px 20px;
+}
+.navbar ul li a:hover{
+    background-color: #000;
+    color : #eee;
+}
+.navbar p{
+    margin:20px;
+    background-color: #ff0000;
+    padding: 20px;
+}*/
