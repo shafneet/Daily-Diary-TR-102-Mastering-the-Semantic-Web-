@@ -1,0 +1,33 @@
+{
+    "users": 
+    [
+        {
+            "firstName":"Raj",
+            "lastName":"Sharma",
+            "age":30,
+            "hobbies":["reading","writing"],
+            "friends":[
+                {
+                    "firstName":"Sanjay",
+                    "lastName":"Kumar"
+                }
+            ]
+        },
+        {
+            "firstName":"Sanjay",
+            "lastName":"Kumar",
+            "age":40
+        }
+    ],
+    "subjects":
+    [
+        {
+            "name": "Automation",
+            "id":1
+        },
+        {
+            "name": "JSON",
+            "id":2
+        }
+    ]
+}
