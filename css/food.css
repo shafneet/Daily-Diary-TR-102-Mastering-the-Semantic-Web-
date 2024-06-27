@@ -1,17 +1,17 @@
 .container {
-    width: 1170px;
+    width: 1200px;
     height: auto;
     margin: 0 auto;
 }
 
 .container .top {
-    width: 1170px;
-    height: 500px;
+    width: 1200px;
+    height: 600px;
     background-color: #F2C12E;
 }
 
 .container .top .header {
-    width: 1170px;
+    width: 1200px;
     height: 70px;
 }
 
@@ -29,26 +29,113 @@
 }
 
 .container .top .header .tele {
-    width: 150px;
-    height: 60px;
+    width: 200px;
+    height: 50px;
+    font-style: oblique;
+    font-weight: bold;
     font-size: large;
     font-family: 'Times New Roman', Times, serif;
-    float: left;
+    float: right;
     margin-top: 20px;
-    margin-left: 500px;
-    margin-bottom: 200px;
+    margin-right: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    text-align: center;
 }
 
-.container .top .header .writeup {
+.container .top .home {
+    font-size: medium;
+    width: 650px;
+    height: 10px;
+    float: right;
+    margin-top: 20px;
+    padding-top: 0;
+    margin-top: 0;
+    text-align: right;
+    margin-right: 0px;
+    padding-right: 0;
+    word-spacing: 5px;
+}
+
+.container .top .home ul {
+    list-style-type: none;
+}
+
+.container .top .home ul li a {
+    text-decoration: none;
+    float: left;
+    background-color: #F2C12E;
+    color: black;
+    padding: 10px 20px 5px 20px;
+}
+
+.container .top .home ul li a:hover {
+    background-color: #000;
+    color: #eee;
+}
+
+.container .top .writeup {
     width: 1200px;
     height: 100px;
 }
 
-.container .top .header .writeup .quotes {
+.container .top .writeup .quotes {
     margin-top: 80px;
     text-align: left;
     margin-left: 180px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.container .top .writeup .quotes h1 {
+    margin-top: 10px;
+    text-align: left;
+    margin-left: 10px;
+    font-size: xx-large;
+    font-family: cursive;
+}
+
+.container .top .writeup .quotes h2 {
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.container .top .writeup .quotes h4 {
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.container .top .writeup .quotes button {
+    border-radius: 50px;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: large;
+    text-align: center;
+    margin-left: 50px;
+    background-color: #F2C12E;
+}
+
+.container .top .writeup .quotes button:hover {
+    background-color: #9F522A;
+}
+
+.container .top .writeup .quotes button:active {
+    background-color: black;
+    color: aliceblue;
+}
+
+.container .top .writeup .food-img img {
+    margin-left: 580px;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin-top: -180px;
 }
 
 .container .top .header .reservation {

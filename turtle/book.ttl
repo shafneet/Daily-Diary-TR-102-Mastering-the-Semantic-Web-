@@ -1,0 +1,23 @@
+@prefix :<http://stardog.com/tutorial/>.
+@prefix xsd:<http://www.w3.org/2001/XMLSchema#>.
+
+:Book1  a :Book;
+        :title "Hamlet"^^xsd:string;
+        :publisher :Springer;
+        :author    :WilliamShakespeare;
+        :date "1603-03-22"^^xsd:date;
+        :reviewedby :John;
+        :language   :english.
+
+:John   a  :Person.
+:WilliamShakespeare  a :Writer;
+                     :plays 39;
+                     :sonnets 154.
+
+:Book2  a :Book;
+        :title "The merchant of Venice"^^xsd:string;
+        :publisher :Marx;
+        :author    :WilliamShakespeare;
+        :date "1603-06-22"^^xsd:date;
+        :reviewedby "Carl"^^xsd:string;
+        :language   :english. 
