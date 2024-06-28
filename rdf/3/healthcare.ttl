@@ -159,6 +159,7 @@
 :Dosage rdf:type owl:Class; 
         rdfs:label "Dosage"@en . 
 
+#  --------------------------- Data ------------------------- 
 :Gmail1 rdf:type :Gmail ;
     :hasSpecializationOf :Cardiology ;
     :dname "Dr. Smith"^^xsd:string .
